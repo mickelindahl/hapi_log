@@ -1,0 +1,24 @@
+{
+  "name": "hapi-log",
+  "version": "0.0.1",
+  "description": "Hapijs plugin for logging to terminal and via email",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab.cmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mickelindahl/hapi_log.git"
+  },
+  "keywords": [
+    "log",
+    "email",
+    "terminal"
+  ],
+  "author": "Mikael Lindahl <mikael.lindahl.07@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mickelindahl/hapi_log/issues"
+  },
+  "homepage": "https://github.com/mickelindahl/hapi_log#readme"
+}
