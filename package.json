@@ -2,7 +2,7 @@
   "name": "hapi-log",
   "version": "0.0.1",
   "description": "Hapijs plugin for logging to terminal and via email",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/lab -r lcov lib/test/index.js | ./node_modules/.bin/coveralls",
     "test2": "./node_modules/.bin/lab -l lib/test/index.js",
