@@ -52,6 +52,7 @@ server.register( {
     }
 });
 ```
+
 - `server` Hapi server object
 - `options` Plugin options object with the following keys:
   - `email` bunyan email stream object
