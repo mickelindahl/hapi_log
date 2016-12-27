@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/mickelindahl/hapi_log.svg?branch=master)](https://travis-ci.org/mickelindahl/hapi_log)
+[![Coverage Status](https://coveralls.io/repos/github/mickelindahl/hapi_log/badge.svg?branch=master)](https://coveralls.io/github/mickelindahl/hapi_log?branch=master)
 #Hapi log
 
 A [hapi](https://www.npmjs.com/package/hapi) plugin that attaches a [bunyan](https://www.npmjs.com/package/bunyan) logger to `server.app.log`
