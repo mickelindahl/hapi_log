@@ -4,7 +4,9 @@
   "description": "Hapijs plugin for logging to terminal and via email",
   "main": "index.js",
   "scripts": {
-    "test": "lab.cmd"
+    "test": "node_modules/.bin/lab -r lcov | ./node_modules/.bin/coveralls",
+    "test2": "./node_modules/.bin/lab -l lib/test/index.js",
+    "test-cov-html": "./node_modules/.bin/lab -m 10000 -l -r html -o lib/test/coverage.html lib/test/index.js "
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/mickelindahl/hapi_log/issues"
   },
-  "homepage": "https://github.com/mickelindahl/hapi_log#readme"
+  "homepage": "https://github.com/mickelindahl/hapi_log#readme",
+  "devDependencies": {
+    "bluebird": "^3.4.7",
+    "bunyan": "^1.8.5",
+    "bunyan-mailgun": "0.0.1",
+    "bunyan-prettystream": "^0.1.3",
+    "code": "^4.0.0",
+    "debug": "^2.5.2",
+    "hapi": "^16.0.2",
+    "lab": "^11.2.1"
+  }
 }
