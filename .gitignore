@@ -5,3 +5,6 @@ node_modules
 # Ignore Idea stuff
 .idea
 
+# No npm
+package-lock.json
+
