@@ -1,6 +1,6 @@
 {
   "name": "hapi-log",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Hapijs plugin for logging to terminal and via email",
   "main": "lib/index.js",
   "scripts": {
