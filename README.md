@@ -2,8 +2,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/mickelindahl/hapi_log/badge.svg?branch=master)](https://coveralls.io/github/mickelindahl/hapi_log?branch=master)
 #Hapi log
 
-A [hapi](https://www.npmjs.com/package/hapi) plugin that attaches a [bunyan](https://www.npmjs.com/package/bunyan) logger to `server.app.log`
- with a terminal stream and a email stream. At `uncaughtException` an email is sent
+A [hapi](https://www.npmjs.com/package/hapi) plugin that attaches a 
+[bunyan](https://www.npmjs.com/package/bunyan) logger to `server.app.log` 
+with a terminal stream and a email stream. At `uncaughtException` an email is sent
 before server shuts down.
 
 ## Installation
